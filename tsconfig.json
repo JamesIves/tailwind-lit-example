@@ -3,8 +3,8 @@
     "target": "es2022",
     "experimentalDecorators": true,
     "useDefineForClassFields": true,
-    "module": "nodenext",
-    "moduleResolution": "nodenext",
+    "module": "esnext",
+    "moduleResolution": "node",
     "types": [],
     "declaration": true,
     "sourceMap": true,
@@ -16,8 +16,5 @@
     "noUnusedParameters": true,
     "exactOptionalPropertyTypes": true
   },
-  "include": [
-    "types/**/*.ts",
-    "src/**/*.ts"
-  ]
+  "include": ["types/**/*.ts", "src/**/*.ts"]
 }
