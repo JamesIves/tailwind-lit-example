@@ -1,2 +1,10 @@
 @tailwind base;
 @tailwind utilities;
+
+:host {
+    @apply bg-black;
+}
+
+.test {
+    @apply bg-orange-50;
+}
